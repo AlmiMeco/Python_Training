@@ -47,7 +47,6 @@ reversed_tuple = tuple(reversed(tuple3))
 print(reversed_tuple)
 # (8, 7, 6, 5, 4, 3, 2, 1)
 
-print('--------------------------------------')
 
 """ Tuple Methods 
  index(): returns the forward index number of a specified element from the tuple
@@ -57,3 +56,25 @@ print(days.index('W'))
 # -> 2
 print(days.count('W'))
 # -> 1
+
+print('--------------------------------------')
+
+""" Multi-Dimensional Tuples
+- works the same as Multi-Dimensional Arrays in Java
+"""
+
+nested_tuple = ((1, 2, 3), (8, 9, 10), (50, 100))
+print(len(nested_tuple))
+# -> 3
+
+print(nested_tuple[0])
+# (1, 2, 3)
+print(nested_tuple[1])
+# (8, 9, 10)
+
+print(nested_tuple[2])
+# (50, 100)
+
+print(nested_tuple[2][1])
+# 100
+
