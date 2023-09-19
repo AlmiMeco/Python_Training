@@ -40,6 +40,7 @@ print('------------------------------')
 
 # One Arg
 employee2 = Employee('Zander')
+
 print(employee2.name)
 print(employee2.job_title)
 print(employee2.salary)
@@ -49,6 +50,7 @@ print('------------------------------')
 
 # No Args
 employee3 = Employee()
+
 print(employee3.name)
 print(employee3.job_title)
 print(employee3.salary)
