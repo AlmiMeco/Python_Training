@@ -3,6 +3,7 @@ Tuples in Python are like Array in Java
 Tuples MUST include MORE than one element seperated by a *comma*
 Tuples *can* (not required) be encapsulated by parenthesis
 Tuples *can* include ANY data type
+* Tuples size is FIXED *
 """
 
 days = 'M', 'T', 'W', 'TH', 'F', 'S', 'SU'

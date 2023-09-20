@@ -46,3 +46,17 @@ Printing the length of a String
 len() method
 """
 print(len(string))
+
+print('------------------------------------------------------------------w')
+
+"""
+Reversing A String (or List or Tuple)
+"""
+
+reversed_list_by_method = str(reversed(string))
+print(reversed_list_by_method)
+
+reversed_list_by_splicing = string[::-1]
+print(reversed_list_by_splicing)
+
+
