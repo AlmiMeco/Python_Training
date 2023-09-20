@@ -36,6 +36,9 @@ class Developer(Employee):
     def work(self):
         print(f'{self.job_title}, {self.name}... is coding')
 
+
+
+
 employee1 = Employee("Kari", 32, 'QA')
 developer1= Developer("Zack", 42, 'Java Developer', 'Google', 190000, 'Java, Python, C#')
 
