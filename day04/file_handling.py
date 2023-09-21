@@ -3,7 +3,7 @@ import csv
 import os
 
 """
-• The build-in method open() is used for file handlings. Returns file object (BefferReader from Java)
+• The build-in method open() is used for file handlings. Returns file object (BefferReader / BufferWriter from Java)
 • The method takes two arguments: open( file_path , mode)
 • File handling is decided based on the second argument (mode) that’s passed to the method
     MODES :
