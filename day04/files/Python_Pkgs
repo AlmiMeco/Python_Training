@@ -1,0 +1,12 @@
+
+
+Web Automation:
+    BeautifulSoup4
+    request
+    pytest
+    robot
+
+Web Development:
+    Django
+    FastAPI
+    flask
