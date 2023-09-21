@@ -38,6 +38,17 @@ class Square(Shape):
         return self.side * self.side
 
 
+class Rectangle(Shape):
+
+    def __init__(self, width, length):
+        super().__init__()
+        self.width = width
+        self.length = length
+
+    def area(self) -> numbers:
+        return self.width * self.length
+
+
 class Cube(Shape, Volume):
 
     def area(self) -> numbers:
