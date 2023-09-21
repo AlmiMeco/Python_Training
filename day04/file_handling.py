@@ -1,5 +1,6 @@
 import json
 import csv
+import os
 
 """
 • The build-in method open() is used for file handlings. Returns file object (BefferReader from Java)
@@ -14,6 +15,23 @@ import csv
 
 path = "C:/Users/Almi's PC/Desktop/my_file.txt"
 
+# Reading A File ('r')
 text_file = open(path, 'r')
 print(text_file.read())
 text_file.close()
+
+print('----------------------------------------')
+
+path2 = 'files/new_file.txt'
+
+# Writing A File ('w') *creates file if non-exisitng*
+text_file2 = open(path2, 'w')
+text_file2.write('This is a new file created by the open() method in Python')
+text_file2.close()
+
+print('----------------------------------------')
+# Removing A file
+
+# os.remove(path2)
+
+
