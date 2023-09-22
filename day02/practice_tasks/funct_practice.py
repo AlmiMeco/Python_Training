@@ -15,6 +15,7 @@
     should return true if the given string is palindrome.
 """
 
+
 # 1.1
 def eligible_to_vote(age: int, country: str) -> bool:
     if age >= 18 and country.upper() == 'USA':
@@ -26,11 +27,26 @@ def eligible_to_vote(age: int, country: str) -> bool:
         return False
 
 
-eligible_to_vote(21, 'USA')     #-> You Are Eligible
-eligible_to_vote(11, 'USA')     #-> You Are Not Eligible
-eligible_to_vote(21, 'Albania') #-> You Are Not Eligible
-
+eligible_to_vote(21, 'USA')  # -> You Are Eligible
+eligible_to_vote(11, 'USA')  # -> You Are Not Eligible
+eligible_to_vote(21, 'Albania')  # -> You Are Not Eligible
 
 print('-------------------------------------------------------------------------')
 
+
+def is_palindrome(s: str) -> bool:
+    reverse_s = s[::-1]
+    reverse_s.isalnum()
+    if s.upper() == reverse_s.upper():
+        print('Is Palindrome')
+        return True
+    else:
+        print('Is Not Palindrome')
+        return False
+
+
+is_palindrome('Racecar')                            # -> Is Palindrome
+is_palindrome('saippuakivikauppias')                # -> Is Palindrome
+is_palindrome('A man, a plan, a canal – Panama')    # -> Is Not Palindrome
+is_palindrome('diana')                              # -> Is Not Palindrome
 
