@@ -45,6 +45,7 @@ def mult_odd_numbs(l1: list) -> list:
 
     return l1
 
+
 print('---------------1.2--------------')
 nums2 = [1, 2, 3, 4, 5]
 print(mult_odd_numbs(nums2))
